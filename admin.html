@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/admin.css">
-    <title>Nike Admin Page</title>
+    <title>Staff Management Page</title>
 </head>
 
 
@@ -33,53 +33,43 @@
             <div id="menu">
                 <ul id="nav">
                     <li>
-                        <a href="#">
+                        <a href="./admin.html">
                             <i class="fa-solid fa-house"></i>Dashboard
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fa-solid fa-list-check icon-nav"></i>Items Manager
-                        </a>
-                        
-                        <ul class="subnav">
-                            <li><a href="#">Clothings</a></li>
-                            <li><a href="#">Shoes</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-chart-simple"></i>Chart
-                        </a>
-                        <ul class="subnav">
-                            <li><a href="#">Clothings</a></li>
-                            <li><a href="#">Shoes</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-table-cells"></i>Tables
-                        </a>
-                        <ul class="subnav">
-                            <li><a href="#">Clothings</a></li>
-                            <li><a href="#">Shoes</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-wpforms"></i>Forms
+                            <i class="fa-regular fa-user"></i>Manage Employees
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fa-solid fa-pager"></i>Pages
+                            <i class="fa-solid fa-triangle-exclamation"></i>Reports
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-credit-card"></i>Payroll
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-address-book"></i>Contact info
                         </a>
                         <ul class="subnav">
-                            <li><a target="_blank" href="./index.html">Homepage</a></li>
-                            <li><a target="_blank" href="./product-pages/men-shoes.html">Men's Shoes</a></li>
-                            <li><a target="_blank" href="./product-pages/women-shoes.html">Women's Shoes</a></li>
-                            <li><a target="_blank" href="./product-pages/kid-shoes.html">Kid's Shoes</a></li>
+                            <li><a href="#">Departments</a></li>
+                            <li><a href="#">Employees</a></li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-pager"></i>Manage Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-table-cells"></i>Timesheets
+                        </a>
                     </li>
                     <li>
                         <a href="#">
@@ -89,48 +79,66 @@
                 </ul>
             </div>
             <div id="main">
-                <h3 class="main-title">Statistic</h3>
                 <div class="statistic">
                     <div class="statistic-item">
-                        <div class="item-icon"><i class="fa-solid fa-dollar-sign"></i></div>
+                        <div class="item-icon"><i class="fa-solid fa-user-large"></i></div>
                         <div class="item-describe">
-                            <label class="item-title">Total icome</label>
-                            <p class="item-value">1101010103</p>                            
+                            <label class="item-title">Employees</label>
+                            <p class="item-value">10123</p>
                         </div>
                     </div>
                     <div class="statistic-item">
-                        <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="item-icon"><i class="fa-brands fa-codepen"></i></div>
                         <div class="item-describe">
-                            <label class="item-title">Items sold</label>
-                            <p class="item-value">10474612</p>                            
+                            <label class="item-title">Departments</label>
+                            <p class="item-value">1101010103</p>
                         </div>
                     </div>
                     <div class="statistic-item">
-                        <div class="item-icon"><i class="fa-solid fa-users"></i></div>
+                        <div class="item-icon"><i class="fa-solid fa-tarp"></i></div>
                         <div class="item-describe">
-                            <label class="item-title">Total users</label>
-                            <p class="item-value">10123</p>                            
+                            <label class="item-title">Projects</label>
+                            <p class="item-value">10474612</p>
                         </div>
                     </div>
-                    <div class="statistic-item">
-                        <div class="item-icon"><i class="fa-solid fa-chart-line"></i></div>
-                        <div class="item-describe">
-                            <label class="item-title">Monthly icome</label>
-                            <p class="item-value">51230123</p>                            
+                </div>
+                <div class="statistical-chart">
+                    <div class="statistical-chart-item">
+                        <div class="chart-item-title">Department staff</div>
+                        <div class="chart-item-list">
+                            <table>
+                                <tr>
+                                    <td class="chart-item-name">Tài chính</td>
+                                    <td class="chart-item-value">25%</td>
+                                </tr>
+                                <tr>
+                                    <td class="chart-item-name">Kế hoạch</td>
+                                    <td class="chart-item-value">25%</td>
+                                </tr>
+                                <tr>
+                                    <td class="chart-item-name">IT</td>
+                                    <td class="chart-item-value">50%</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
-                    <div class="statistic-item">
-                        <div class="item-icon"><i class="fa-solid fa-heart"></i></div>
-                        <div class="item-describe">
-                            <label class="item-title">Total favorite</label>
-                            <p class="item-value">69287</p>                            
-                        </div>
-                    </div>
-                    <div class="statistic-item">
-                        <div class="item-icon"><i class="fa-solid fa-star"></i></div>
-                        <div class="item-describe">
-                            <label class="item-title">Total saves</label>
-                            <p class="item-value">2134</p>                            
+                    <div class="statistical-chart-item">
+                        <div class="chart-item-title">Department project</div>
+                        <div class="chart-item-list">
+                            <table>
+                                <tr>
+                                    <td class="chart-item-name">Tài chính</td>
+                                    <td class="chart-item-value">25%</td>
+                                </tr>
+                                <tr>
+                                    <td class="chart-item-name">Kế hoạch</td>
+                                    <td class="chart-item-value">25%</td>
+                                </tr>
+                                <tr>
+                                    <td class="chart-item-name">IT</td>
+                                    <td class="chart-item-value">50%</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -139,7 +147,7 @@
 
     </div>
     <script src="https://kit.fontawesome.com/bfc21e4b01.js" crossorigin="anonymous"></script>
-
+   
 </body>
 
 </html>
